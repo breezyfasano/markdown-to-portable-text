@@ -1,0 +1,27 @@
+{
+  "name": "md-portable-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/block-tools": "^3.8.3",
+    "@sanity/cli": "^2.35.3",
+    "@sanity/schema": "^2.35.0",
+    "gray-matter": "^4.0.3",
+    "jsdom": "^21.1.1",
+    "rehype-document": "^6.1.0",
+    "rehype-format": "^4.0.1",
+    "rehype-stringify": "^9.0.3",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "to-vfile": "^7.2.4",
+    "unified": "^10.1.2",
+    "vfile-reporter": "^7.0.5"
+  }
+}
